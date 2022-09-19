@@ -1,0 +1,626 @@
+.main {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("./image/img2.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.about_page {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgb(3, 4, 4)), url("./image/img6.png");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.About_SubHeadline {
+    text-align: center;
+    float: right;
+    padding: 0%;
+    margin: 50px;
+}
+
+.btn-hire {
+    background-color: black;
+}
+
+.btn-hire:hover {
+    background-color: rgb(22, 11, 11);
+    color: #7be74a
+}
+
+.btn-downd {
+    background-color: black;
+}
+
+.btn-downd:hover {
+    background-color: black;
+    color: #7be74a
+}
+
+hr {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border: 2;
+    width: 125px;
+    height: 2px;
+    border-width: 0;
+    color: rgb(230, 17, 17);
+    background-color: rgb(77, 238, 14);
+}
+
+h1 {
+    font-size: 60px;
+    color: seashell;
+}
+
+p {
+    font-size: px;
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 50px
+}
+
+strong {
+    font-size: 65px;
+}
+
+.intro {
+    margin: 40px;
+}
+
+.nav-item {
+    margin: 20px;
+    font-size: 17px;
+    outline: saddlebrown;
+}
+
+.nav-link {
+    color: #29ece2;
+}
+.navbar-toggler:focus, .navbar-toggler:hover {
+    text-decoration: none;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    margin-left: 281px;
+    margin-top: -53px;
+
+}
+.nav-link:hover {
+    color: #f50b0b;
+    background-color: rgb(221, 17, 136);
+    transition: 0.6s;
+    border-radius: 30px;
+}
+
+.main-nav-active {
+    color: rgb(14, 13, 13);
+    background-color: rgb(226, 196, 27);
+    text-shadow: rgb(14, 13, 13);
+    font-weight: 400;
+    border-radius: 30px;
+}
+
+.btn_about {
+    background-color: rgb(17, 230, 206);
+    border-radius: 30px;
+    padding: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.btn_about:hover {
+    color: black;
+    background-color: #7be74a;
+    transition: 0.6s;
+}
+
+
+/* Contact  */
+
+.Contact_Line {
+    text-align: center;
+    margin: 18px;
+    float: middle;
+    padding: 0%;
+}
+
+.contact_detail {
+    text-align: center;
+    margin: 0px;
+    float: middle;
+    padding: 0%;
+    margin-top: 60px;
+}
+
+.btn-contact-bg {
+    background: #1794bb;
+    border-radius: 30px;
+    border-style: none;
+    color: black;
+    font-size: 13px;
+    padding: 12px 12px;
+    display: inline-block;
+    margin-top: 10px;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    transition: all 0.3s ease 0s;
+}
+
+.Contact_Page {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgb(3, 4, 4)), url("./image/contact.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow: hidden;
+}
+
+#message_form input {
+    background: none;
+    border-bottom: 2px solid #333;
+    border-radius: 18px;
+    box-shadow: none;
+    color: rgb(247, 247, 247);
+    height: 37px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.contact_social_icon {
+    float: middle;
+    color: khaki;
+}
+
+.fa-envelope {
+    color: khaki;
+}
+
+#message_form textarea {
+    color: rgb(247, 247, 247);
+}
+
+.contact_form_heading input::placeholder {
+    color: rgb(194, 191, 42);
+}
+
+.contact_form_heading textarea::placeholder {
+    color: rgb(194, 191, 42);
+}
+
+.form-control {
+    display: initial;
+    width: 90%;
+}
+
+#message {
+    background: none;
+    border-bottom: 2px solid #333;
+    border-radius: 18px;
+    box-shadow: none;
+    color: #333;
+    height: 37px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.Contact_Line strong {
+    color: #eaec61;
+}
+
+.row textarea {
+    background: none;
+    border-bottom: 2px solid #333;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    color: #333;
+    padding: 10px;
+}
+
+#message {
+    margin: "0px 350px 0px 0px";
+    width: 95%;
+    height: 150px;
+    resize: both;
+    overflow: auto;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 3px;
+    font-size: 20px;
+    width: 31px;
+    text-align: center;
+    margin: 30px 27px;
+    border-radius: 5px;
+  }
+  .fa-facebook:hover {
+    opacity: 0.7;
+}
+.fa-linkedin{
+    background:#007bb5;
+    color: white;
+    padding: 3px;
+    font-size: 20px;
+    width: 31px;
+    text-align: center;
+    margin: 30px 27px;
+    border-radius: 5px;
+}
+.fa-linkedin:hover {
+    opacity: 0.7;
+}
+.fa-skype{
+    background:#00aff0;
+    color: white;
+    padding: 3px;
+    font-size: 20px;
+    width: 31px;
+    text-align: center;
+    margin: 30px 27px;
+    border-radius: 5px;
+}
+.fa-skype:hover {
+    opacity: 0.7;
+}
+
+/* Service */
+
+.service-page {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgb(3, 4, 4)), url("./image/Service.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.logo-small{
+
+    color: rgb(206, 81, 50);
+
+}
+.react{
+    color: ghostwhite;
+    font-variant: all-small-caps;
+}
+.web{
+    color: ghostwhite;
+    font-variant: all-small-caps;
+      
+}
+.res{
+    color: ghostwhite;
+    font-variant: all-small-caps;
+      
+}
+.des{
+    color: ghostwhite;
+    font-variant: all-small-caps;  
+}
+u{
+    color: rgb(14, 13, 13);
+}
+
+
+
+
+ /* Resume tab */
+
+
+ 
+.resume-page{
+
+    background-image: radial-gradient(rgba(0, 0, 0, 0.3), rgb(0, 0, 0.4)), url("./image/resume.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+.resume-text-a {
+    text-align: center;
+    top:100px;
+    word-spacing:7px;
+    letter-spacing: 5px;
+
+  }
+  .resume-text-b {
+    
+    text-align: center;
+    top:100px;
+    word-spacing:7px;
+    letter-spacing: 5px;
+    
+  }
+  .border-right 
+  {
+    border-right: 3px dashed #1568bb;
+    height: auto;
+}
+
+
+    /* Portfolio */
+    
+
+    .portfolio-page {
+       
+        background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgb(3, 4, 4)), url("./image/portfolio.jpg");
+
+
+    }
+ 
+
+    .timeline {
+      position: relative;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+   .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: rgb(218, 200, 39);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    border-radius: 4px ;
+
+  }
+  
+  /* .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: rgb(99, 16, 16);
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  } */
+  
+  /* Place the container to the left */
+  .left {
+    left: -304px;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 303px;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -16px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: rgb(207, 89, 89);
+    position: relative;
+    border-radius: 6px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+  
+  
+  @media screen and (max-width: 768px) {
+    
+    
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+      
+    }
+    .border-right {
+        border-right: 0px ;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+    .logoName {
+        font-size: 19px;
+    }
+    .intro{
+        color: deepskyblue;
+        font-size: 35px;
+    }
+    .site-heading{
+        font-size: 23px;
+    line-height: 2em;
+    }
+    .about_page {
+        background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgb(3, 4, 4)), url(/static/media/img6.1c0ae382.png);
+        background-size: 262%;
+        height: 100vh;
+        background-repeat: round;
+        background-position: inherit;
+        width: 108%;
+        height: 101vh;
+
+    }
+    .About_SubHeadline{
+        margin-top: 45px;
+        margin: 36px;
+    }
+    .line_one{
+        font-size: 12px;
+    }
+    .my{
+
+        color: khaki;
+    }
+    .service-page {
+        background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgb(3, 4, 4)), url("./image/Service.jpg");
+        background-size: cover;
+        height: 131vh;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: 0px;
+       
+  }
+  .left {
+    left: 12px;
+}
+.right {
+    left: 13px;
+}
+.container {
+       border-radius: 4px;
+       padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 100%;
+}
+
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium ;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+.resume-page {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.3), rgb(0, 0, 0.4)), url("image/resume.jpg");
+    height: 100vh;
+        
+}
+.resume-text-a {
+    text-align: center;
+    letter-spacing: 5px;
+    top: auto;
+}
+.resume-text-b {
+    word-spacing: 7px;
+    text-align: center;
+    letter-spacing: 4px;
+    top: auto;
+
+  }
+  .education{
+
+    font-size: 42px;
+    font-style: oblique;
+  }
+  .unvt{
+    letter-spacing: 1.6px;
+  }
+
+  .exp{
+
+    font-size: 42px;
+    font-style: oblique;
+  }
+  .org-add{
+    letter-spacing: 1.1px;
+  }
+.form-detail{
+    
+    display: block;
+    width: 350px;
+    overflow-y: scroll;
+    position: relative;
+    height: 528px;
+
+    
+    
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: block;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* margin-right: -15px; */
+    /* margin-left: -15px; */
+}
+
+}
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
