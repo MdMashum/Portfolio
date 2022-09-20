@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was portfolio with [Create React App]
 
 ## Available Scripts
 
@@ -76,7 +76,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
  opacity:show ? '1' :'0'
  }} >
  <div className="modal-header">
-         <p>HiringNow.Com</p>
+         <p>Mashum.Com</p>
          <span onClick={close} className="close-modal-btn">x</span>
  
        </div>
